@@ -1,0 +1,18 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    .navbar {
+        border: 1px solid black;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .nav_element{
+            display: flex;
+            gap: 40px;
+        }
+    }
+}
